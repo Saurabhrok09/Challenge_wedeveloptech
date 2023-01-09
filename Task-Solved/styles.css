@@ -1,0 +1,269 @@
+.demo{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: 'Roboto';font-size: 22px;
+}
+.navbar a {
+    float:none;
+    position: relative;
+    padding: .75rem;
+    color: rgb(22, 1, 1);
+    text-decoration: none;
+    font-size: 10px;
+    padding: 0rem;
+    margin: 0rem;
+    display: inline-block;
+    text-align:right;
+    word-spacing:2;
+    text-align: center;
+}
+.navbar{
+    text-align: center;
+}
+
+.img1{
+    margin: 1.25rem 0rem 0rem 0rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+.wlc{
+    text-align: center;
+    margin: 1.25rem .625rem .625rem 1.25rem;
+    font-size: 2.5rem;                                                
+}
+.img2{
+    float: right;
+    margin: 10px;
+}
+.lorem{
+    text-align: justify;
+    font-size: 1.25rem;                                                            
+    margin: 1.25rem 9.375rem;
+
+} 
+.button1{
+    text-align: center;
+    cursor:pointer;
+    margin: 2.5rem .625rem 2.5rem .625rem;
+    padding: 1.25rem 2.5rem;
+    background-color: white;
+    position: relative;
+    
+   
+}
+.button1:hover {
+    background-color: #dde1dd;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    border: .0625rem solid black;
+}
+.show{
+    text-align: center;
+    margin: 1.875rem 0rem 1.875rem 0rem;
+    font-size: 2.5rem;                           
+}
+.images123{
+    text-align:center;
+    display:inline;
+}
+.image1{
+    border-radius: 50%;
+    margin: 1.5625rem;
+}
+.image2{
+    border-radius: 50%;
+    margin: 1.5625rem;
+}
+.image3{
+    border-radius: 50%;
+    margin: 1.5625rem;
+}
+.his{
+    text-align: center;
+    margin: 1.875rem .625rem 1.875rem .625rem;
+    font-size: 2.5rem;                                             
+}
+.para{
+    text-align: justify;
+    margin: 1.875rem 4.375rem 1.25rem 4.375rem;
+    font-size: 1.25rem;                                                
+}
+.copy{
+    display:inline;
+}
+.imgcopy{
+    float: left;
+    margin: 0rem .25rem 0rem 4.375rem;
+}
+.text_rigths{
+    font-size: .9375rem;
+}
+.designed{
+   float:right;
+  text-align: right;
+   margin: 0rem 4.375rem 0rem 0rem;
+}
+.we{
+    color: #e58d41;
+}
+.but1 {
+    text-align: center;   
+}
+#home{
+    color: #e58d41;
+    font-size: 15px;
+}
+#h1{
+    width: 10%;
+    text-align: center;
+    font-size: 15px;
+}
+#h2{
+    width: 12%;
+    text-align: center;
+    font-size: 15px;
+}
+@media(max-width:1840px){
+    .nav-icon{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media(max-width:768px){
+    html {
+        position:relative;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+    .head{
+        display: none;
+        visibility: hidden;
+    }
+    .demo{
+        text-align: left;
+        margin: 5px 0px 10px 10px;
+    }
+    .nav-icon{
+        display:block;
+        visibility:visible;
+        height: 20px;
+        width: 20px;
+        float: right;
+        max-width: 0px 10px 10px 0px;
+    }
+    .img1{
+        margin: 40px 0px 0px 0px;
+    }
+    .img-1{
+        width: 95%;
+    }
+    .class2{
+        width: 95%;
+    }
+    .lorem{
+        margin: 20px -30px 20px 20px;
+        text-align: center;
+        align-items: center;
+        text-align: justify;
+    }
+    .image1{
+        margin: 5px;
+    }
+    .image2{
+        margin: 5px;
+    }
+    .image3{
+        margin: 5px;
+    }
+    .para{
+        margin: 10px;
+    }
+    .designed{
+        margin: 0px 10px;
+    }
+    .imgcopy{
+        margin: 0px 10px;
+    }
+}
+@media(max-width:480px){
+    .demo{
+        height: 70px;
+        margin:10px 0px 0px 0px;
+    }
+    .demo-1{ 
+    width: 35%;
+    }
+    .img-1{
+        height: 300px;
+    }
+    .wlc{
+        text-align: center;
+        font-size: 23px;
+    }
+    .img2{
+        width: 45%;
+        height: 100px;
+    }.lorem{
+        margin: 10px -5px 10px 10px;
+        font-size: 15px;
+    }
+    .img2{
+        margin: 5px 0px 5px 5px;
+    }
+    .button1{
+        padding: 0.5rem 1rem;
+    }
+    .show{
+        margin: 10px 0px 40px 0px;
+        text-align: center;
+        font-size: 23px
+    }
+    #hrr{
+        width: 8%;
+    }
+    .image1{
+        height: 150px;
+        width: 150px;
+        margin: 15px;
+    }
+    .image2{
+        height: 150px;
+        width: 150px;
+        margin: 15px;
+    }
+    .image3{
+        height: 150px;
+        width: 150px;
+        margin: 15px;
+    }
+    .his{
+        font-size: 23px;
+        margin: 10px;
+    }
+    .para{
+        font-size: 15px;
+        margin: 20px 10px;
+    }
+    .designed{
+        margin: 0px 10px;
+        font-size: 10px;
+        float: left;
+    }
+    .imgcopy{
+        height: 15px;
+        width: 15px;
+        margin: 0px;
+    }
+    .text_rigths{
+        font-size: 10px;
+    }
+}
